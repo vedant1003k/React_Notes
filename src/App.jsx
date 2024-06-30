@@ -7,6 +7,9 @@ import DataFetchingOne from "./components/DATAFETCHING/DataFetchingOne";
 import DatafetchingTwo from "./components/DATAFETCHING/DatafetchingTwo";
 import Counter from "./components/USEMEMO/Counter";
 import FocusInput from "./components/USEREF/FocusInput";
+import DocTitle from "./components/CUSTOM/DocTitle";
+import DocTitle2 from "./components/CUSTOM/DocTitle2";
+import CounterCus from "./components/CUSTOM/CounterCus";
 // import HookCounter from "./components/HOOKS/HookCounter";
 // import HookCounter2 from "./components/HOOKS/HookCounter2";
 // import HookCOunter3 from "./components/HOOKS/HookCOunter3";
@@ -86,7 +89,10 @@ const App = () => {
       {/* <DataFetchingOne/> */}
       {/* <DatafetchingTwo/>  */}
       {/* <Counter/> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+      {/* <DocTitle/>
+      <DocTitle2/> */}
+      <CounterCus/>
     </div>
   );
 };
